@@ -1,5 +1,5 @@
 # Core Data Processing
-pandas>=2.1.0,<2.3.0
+pandas==2.2.3
 
 # AWS Integration
 boto3>=1.28.35,<2.0.0
