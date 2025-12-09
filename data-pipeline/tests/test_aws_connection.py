@@ -26,7 +26,7 @@ def test_aws_connection():
 
         # List your buckets
         buckets =  s3.list_buckets()
-        print(f"Connected! You have {len(buckets["Buckets"])} S3 buckets")
+        print(f"Connected! You have {len(buckets['Buckets'])} S3 buckets")
 
 
         return True
